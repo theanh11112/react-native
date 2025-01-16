@@ -1,13 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import BMI from './BMI/BMI';
+import Box from './codedemo';
+import App1 from './demo';
 export default function App() {
   return (
     // <View style={styles.container}>
     //   <Text>Open up App.js to start working on your app!</Text>
     //   <StatusBar style="auto" />
     // </View>
-    <BMI/>
+    // <BMI/>
+    <>
+    {/* <Box></Box> */}
+    <App1></App1>
+    </>
+    
+
   );
 }
 
