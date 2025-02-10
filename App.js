@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import BMI from './BMI/BMI';
 import Box from './codedemo';
 import App1 from './demo';
+import Home from './login-signUp/home';
 export default function App() {
   return (
     // <View style={styles.container}>
@@ -12,7 +13,8 @@ export default function App() {
     // <BMI/>
     <>
     {/* <Box></Box> */}
-    <App1></App1>
+    {/* <App1></App1> */}
+    <Home></Home>
     </>
     
 
