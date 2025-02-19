@@ -13,7 +13,7 @@ export default function App() {
     // <BMI/>
     <>
     {/* <Box></Box> */}
-    {/* <App1></App1> */}
+    <App1></App1>
     <Home></Home>
     </>
     
